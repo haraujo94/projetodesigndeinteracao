@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=WindSong:wght@400;500&display=swap');
+
+.italianno-regular {
+  font-family: "Italianno", cursive, sans-serif;
+  font-weight:100 ;
+  font-style: normal;
+  color: black;
+}
+
+
 body{
     background-color:white;
     
+}
+body header figcaption {
+    float: right;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+p{
+    font-family: "Italianno", cursive, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
 }
