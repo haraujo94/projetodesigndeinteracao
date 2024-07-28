@@ -6,6 +6,7 @@
     <meta name="author" content="Hellen"> 
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Produtos</title>
 </head>
 <body>
@@ -22,51 +23,57 @@
 
     <div class="janela">
         <figure >
-            <img src="./logo 3.jpg" alt="logo" width="150" height="150">
+            <img src="./logo 3.jpg" alt="logotipo" width="250" height="250">
         </figure>
     </div>
 </div>
+
 <div class="descricao_produto"> 
     <div id="topo"></div>
 
     <p>
-        <h2>Delícias Artesanais</h2>
-        <p><h3>Todo produto é preparado com ingredientes de qualidade, que trazem muito mais sabor ao paladar.</h3></p>
-        <p><h3>Experimente a delicadeza de cada alimento e se delicie com o melhor que podemos lhe proporciona.</h3></p>
+        <h2>Produtos Caseiros</h2>
+        <p><h3>No J&E Delícias Caseiras, dedicamos nossa cozinha a criar bolos</h3></p>
+        <p><h3>decorados e simples, doces e e salgados artesanais que trazem um gostinho de amor para sua mesa.</h3></p>
+        <p><h3>Com ingredientes frescos e muita dedicação, cada produto é feito com carinho para tornar seu dia mais doce e memorável.</h3></p>
         <br>
         
     </p>
-</div>
     
+</div>
+
 <div class="centralizador">
     <div class="container">
         <div class="image-cell">
             <td class="image-cell">
-                <img src="./bolo simples 1.jpg" alt="BolosCaseiro" class="opacity-image">
+                <img src="./fundo.png" alt="Bolo" class="opacity-image">
                 
-                <div> <a href="#BolosCaseiro" class="text-over-image">Bolos Caseiro</a>
+                <div> <a href="#BoloSimples" class="text-over-image">Bolos Simples</a>
                 </div>
             </td>
         </div>
+
         <div class="image-cell">
             <td class="image-cell">
-                    <img src="./bolo festa 1.jpg" alt="BolosdeFesta " class="opacity-image">
+                    <img src="./fundo.png" alt="Bolo Festa" class="opacity-image">
                     
-                    <div> <a href="#BolosdeFesta" class="text-over-image">Bolos de Festa</a>
+                    <div> <a href="#BoloFesta" class="text-over-image">Bolos Decorados </a>
                 </div>
             </td>        
         </div>
+
         <div class="image-cell">
             <td class="image-cell">
-                    <img src="./salgados.jpg" alt="Salgados" class="opacity-image">
+                    <img src="./fundo.png" alt="Salgados" class="opacity-image">
                     
                     <div> <a href="#Salgados" class="text-over-image">Salgados</a>
                 </div>
             </td>
         </div>
+
         <div class="image-cell">
             <td class="image-cell">
-                    <img src="./5.jpg" alt="Doces" class="opacity-image">
+                    <img src="./fundo.png" alt="doces" class="opacity-image">
                     
                     <div> <a href="#Doces" class="text-over-image">Doces</a>
                 </div>
@@ -74,44 +81,30 @@
         </div>
     </div>
 </div>
-<div id="Bolos Caseiro">
-    <h1 class="Bolos Caseiro"></h1>
+
+
+<div id="BoloSimples">
+    <h1 class="BoloSimples">Bolos Simples</h1>
 </div>
 
 
 <div class="grid-container">
     <div class="grid-item" data-toggle="modal" data-target="#modal1">
-        <img src="./bolo simples 2.jpg" alt="Bolo De Chocolate" width="150px" height="150px">
+        <img src="./bolo simples 1.jpg" alt="bolo piscininha" width="150px" height="150px">
     </div>
     <div class="grid-item" data-toggle="modal" data-target="#modal2">
-        <img src="./bolo simples 1.jpg" alt="Bolo Piscininha" width="150px" height="150px">
+        <img src="./bolo simples 2.jpg" alt="bolo cobertura" width="150px" height="150px">
     </div>
     <div class="grid-item" data-toggle="modal" data-target="#modal3">
-        <img src="./bolo simples 3.jpg" alt="Bolo De Chocolate" width="150px" height="150px">
+        <img src="./bolo simples 3.jpg" alt="bolo granulado" width="150px" height="150px">
     </div>
     <div class="grid-item" data-toggle="modal" data-target="#modal4">
-        <img src="./bolo simples 4.jpg" alt="Bolo Simples Sem Cobertura" width="150px" height="150px">
+        <img src="./bolo simples 4.jpg" alt="bolo sem cobertura" width="150px" height="150px">
     </div>
 </div>
+
+<!-- Modais -->
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalLabel1">Bolo De Chocolate</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="./bolo simples 2.jpg" alt="Bolo de Chocolate">
-            </div>
-            <div class="modal-body">
-                Bolo de chocolate com cobertura de chocolate. <br>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -120,176 +113,477 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+
             <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
                 <img src="./bolo simples 1.jpg" alt="Bolo Piscininha">
             </div>
+
+
             <div class="modal-body">
-                Bolo de chocolate com muito recheio de leite ninho. <br>
+                Bolo de chocolate com muuuuito recheio de leite ninho. <br>
+                <p>R$ 30,00</p>
             </div>
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Bolo Com Cobertura De Chocolate</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="./bolo simples 2.jpg" alt="Bolo Com Cobertura De Chocolate">
+            </div>
+
+            <div class="modal-body">
+                Bolo de chocolate com cobertura de chocolate. <br>
+                <p>R$ 20,00</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalLabel1">Bolo de Chocolate</h5>
+                <h5 class="modal-title" id="modalLabel1">Bolo Com Cobertura de Granulado</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+
             <div class="modal-body">
-                <img src="./bolo simples 3.jpg" alt="Bolo de Chocolate">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="./bolo simples 3.jpg" alt="Bolo Com Cobertura de Granulado">
             </div>
+
             <div class="modal-body">
                 Bolo de chocolate com cobertura de chocolate e chocolate granulado. <br>
+                <p>R$ 25,00</p>
             </div>
         </div>
     </div>
 </div>
+
 <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modalLabel4" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalLabel1">Bolo Simples Sem Cobertura</h5>
+                <h5 class="modal-title" id="modalLabel1">Bolo Sem Cobertura</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+
             <div class="modal-body">
-                <img src="./bolo simples 4.jpg" alt="Bolo Simples Sem Cobertura">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="./bolo simples 4.jpg" alt="Bolo Sem Cobertura">
             </div>
 
 
             <div class="modal-body">
-             Bolo simples sabor a escolha do cliente, sem cobertura.
+                Bolo sem cobetura sabores a sua escolha!
+                <p>R$ 15,00</p>
             </div>
         </div>
     </div>
 </div>
-<div id="Bolos de Festa">
-    <h1 class="Bolos de Festa">Bolos de Festas</h1>
+
+<div id="Bolos de festa">
+    <h1 class="Bolos de Festa">Bolos Decorados</h1>
 </div>
+
 <div class="grid-container">
     <div class="grid-item" data-toggle="modal" data-target="#modal5">
-        <img src="./bolo festa 1.jpg" alt="Bolos Decorados" width="150px" height="150px">
+        <img src="../img/alm_Chiken.png" alt="Frango" width="150px" height="150px">
     </div>
+
     <div class="grid-item" data-toggle="modal" data-target="#modal6">
-        <img src="./bolo festa 2.jpg" alt="Bolos Decorados Sabores" width="150px" height="150px">
-        </div>
-        <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalLabel1">Bolos Decorados</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="./bolo festa 1.jpg" alt="Bolos Decorados">
-                    </div>
-                    <div class="modal-body">
-                        Bolos decorados com o tema a sua escolha, venha Conferir! <br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalLabel1">Bolos Decorados Sabores</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="./bolo festa 2.jpg" alt="Bolos Decorados">
-                    </div>
-
-                    <div class="modal-body">
-                        Bolos de festas sabor a sua escolha, venha conferir!
-                    </div>
-                </div>
-            </div>
-        </div>
-     <div id="Salgados">
-        <h1 class="Salgados">Salgados</h1>
+        <img src="../img/alm_feijoada.png" alt="feijoada" width="150px" height="150px">
     </div>
-    <div class="grid-container">
-        <div class="grid-item" data-toggle="modal" data-target="#modal7">
-            <img src="./salgados.jpg" alt="Salgados" width="150px" height="150px">
+
+    <div class="grid-item" data-toggle="modal" data-target="#modal7">
+        <img src="../img/alm_panqueca.png" alt="panqueca" width="150px" height="150px">
+    </div>
+    
+    <div class="grid-item" data-toggle="modal" data-target="#modal8">
+        <img src="../img/alm_fileMingnon.png" alt="carne" width="150px" height="150px">
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">BBQ Buffalo Wings</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/alm_Chiken.png" alt="Frango">
+            </div>
+
+
+            <div class="modal-body">
+                Nossas famosas asinhas de soja veganas marinadas em molho barbecue cítrico e apimentado. Servido com molho rancho vegano
+                e talos de aipo. <br>
+                <p>R$ 36,57</p>
+            </div>
         </div>
-         <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Feijoada Mineira</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/alm_feijoada.png" alt="feijoada">
+            </div>
+
+
+            <div class="modal-body">
+                Nada mais brasileiro que uma feijoada feita com carnes nobres, arroz soltinho temperado com azeite e louro, 
+                uma couve manteiga refogada na medida certa sem esquecer a farofa de bacon. <br>
+                <p>R$ 86,57</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Roll Cakes</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/alm_panqueca.png" alt="collarGreen">
+            </div>
+
+
+            <div class="modal-body">
+                Panquecas feitas com massa leve e recheadas com ricota e queijo minas, temperados com alho poró, 
+                salsa e azeite. Acompanha geléia de frutas vermelhas. <br>
+                <p>R$ 46,78</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Medal of Winners</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/alm_fileMingnon.png" alt="carne">
+            </div>
+
+
+            <div class="modal-body">
+                A parte mais nobre do boi, o filé mingnon, cortado em medalhão, assado por igual, deixando o sabor marcante 
+                do corte. Cada medalhão acompanha um purê de mandioquinha e meia pêra assada, contrastando os sabores e texturas. <br>
+                <p>R$ 99,24</p>
+            </div>
+        </div>
+    </div>
+</div>    
+
+<div id="Jantar">
+    <h1 class="Jantar">Jantar</h1>
+</div>
+
+<div class="grid-container">
+    <div class="grid-item" data-toggle="modal" data-target="#modal9">
+        <img src="../img/jan_carneComPure.png" alt="carneComPure" width="150px" height="150px">
+    </div>
+
+    <div class="grid-item" data-toggle="modal" data-target="#modal10">
+        <img src="../img/jan_carneComVinho.png" alt="carneComVinho" width="150px" height="150px">
+    </div>
+
+    <div class="grid-item" data-toggle="modal" data-target="#modal11">
+        <img src="../img/jant_lagosta.png" alt="lagosta" width="150px" height="150px">
+    </div>
+
+    <div class="grid-item" data-toggle="modal" data-target="#modal12">
+        <img src="../img/jant_risotoTomate.png" alt="risotoTomate" width="150px" height="150px">
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Rindfleisch mit Risotto</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/jan_carneComPure.png" alt="carneComRisoto">
+            </div>
+
+
+            <div class="modal-body">
+                Uma deliciosa peça de picanha cortada em tiras, mal passada, com sal grosso e alecrim ao lado 
+                do fabuloso risoto de queijo com cenouras, para complementar.<br>
+                <p>R$ 104,65</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Viande avec Vin</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/jan_carneComVinho.png" alt="Frango">
+            </div>
+
+
+            <div class="modal-body">
+                Este prato traz uma redução de vinho para compor o sabor extremo do filé Mingnon,
+                purê de mandioquinha e shimejis. Esse prato é pensado para quem ama explosão de sabores. <br>
+                <p>R$ 103,77</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Lagosta Thermidor Gourmet</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/jant_lagosta.png" alt="lagosta">
+            </div>
+
+
+            <div class="modal-body">
+                Lagosta grelhada ao ponto perfeito, servida com um molho cremoso de conhaque e mostarda Dijon, gratinada com queijo
+                Gruyère e finalizada com ervas frescas. Acompanha risoto de açafrão e aspargos al dente.<br>
+                <p>R$ 102,88</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Risoto de Tomate Seco ao Perfume de Manjericão</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/jant_risotoTomate.png" alt="risotoTomate">
+            </div>
+
+
+            <div class="modal-body">
+                Um risoto cremoso e envolvente, preparado com arroz arbóreo de primeira qualidade, lentamente cozido em um caldo de
+                legumes caseiro. Enriquecido com tomates secos importados, que oferecem um sabor intenso e adocicado, e perfumado com
+                folhas frescas de manjericão. Finalizado com lascas generosas de Parmigiano-Reggiano e um toque de azeite extra virgem.<br>
+                <p>R$ 89,94</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Sobremesa">
+    <h1 class="Sobremesa">Sobremesa</h1>
+</div>
+
+<div class="grid-container">
+    <div class="grid-item" data-toggle="modal" data-target="#modal13">
+        <img src="../img/sob_brigadeiroCopo.png" alt="brigadeiro" width="150px" height="150px">
+    </div>
+
+    <div class="grid-item" data-toggle="modal" data-target="#modal14">
+        <img src="../img/sob_mousseNinho.png" alt="mousseNinho" width="150px" height="150px">
+    </div>
+
+    <div class="grid-item" data-toggle="modal" data-target="#modal15">
+        <img src="../img/sob_tortaCereja.png" alt="tortaCereja" width="150px" height="150px">
+    </div>
+
+    <div class="grid-item" data-toggle="modal" data-target="#modal16">
+        <img src="../img/sob_bolo.png" alt="bolo" width="150px" height="150px">
+    </div>
+</div>
+
+    <!-- Modais -->
+    <div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel1">Salgados</h5>
+                    <h5 class="modal-title" id="modalLabel1">Brigadeiro de Copo com Lâminas de Ouro</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
     
                 <div class="modal-body">
-                    <img src="./salgados.jpg" alt="Salgados">
+                    <!-- Aqui você vai colocar a imagem -->
+                    <img src="../img/sob_brigadeiroCopo.png" alt="brigadeiro">
                 </div>
+    
+    
                 <div class="modal-body">
-                    Deliciosos salgados de diversos tamanhos e sabores para deixar sua festa mais gostosa!.<br>
+                    Uma releitura sofisticada do clássico brigadeiro brasileiro. Este doce encantador é preparado com chocolate belga 70%
+                    cacau e leite condensado cozido lentamente até atingir a consistência perfeita. Servido em um elegante copo de cristal,
+                    é finalizado com uma camada de creme de baunilha de Madagascar e decorado com lâminas comestíveis de ouro 24k.<br>
+                    <p>R$ 33,44</p>
                 </div>
             </div>
         </div>
-    </div>
- <div id="Doces">
-        <h1 class="Doces">Doces&Sobremesas</h1>
     </div>
 
-         <div class="grid-container">
-        <div class="grid-item" data-toggle="modal" data-target="#modal8">
-            <img src="./pudim.jpg" alt="pudim" width="150px" height="150px">
-        </div>
-         <div class="grid-item" data-toggle="modal" data-target="#modal9">
-            <img src="./5.jpg" alt="Ovos de Pascoa" width="150px" height="150px">
-        </div>
-        <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalLabel1">Pudim</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-        
-                    <div class="modal-body">
-                        <img src="./pudim.jpg" alt="pudim">
-                    </div>
-        <div class="modal-body">
-                        Delicioso pudim caseiro tamanho a sua escolha!<br>
-                    </div>
-                </div>
+
+<!-- Modais -->
+<div class="modal fade" id="modal14" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Mousse Douceur de Lait Ninho</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-        </div>
-        <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel1">Ovos de Chocolate</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-    
-                <div class="modal-body">
-                    <img src="./5.jpg" alt="Ovos de Chocolate">
-                </div>
-    
-    
-                <div class="modal-body">
-                Deliciososo ovos de chocolate de varios sabores e tamanhos a sua preferencia!<br>
-                </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/sob_mousseNinho.png" alt="mousseNinho">
+            </div>
+
+
+            <div class="modal-body">
+                Uma mousse leve e aerada de leite Ninho, intercalada com camadas de biscoito champagne embebido em licor de framboesa.
+                Decorada com frutas vermelhas frescas, servida em taças de chocolate para um final de refeição
+                deslumbrante.<br>
+                <p>R$ 51,67</p>
             </div>
         </div>
     </div>
+</div>
+
+
+<!-- Modais -->
+<div class="modal fade" id="modal15" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Torta de Cereja Negra e Mascarpone</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/sob_tortaCereja.png" alt="tortaCereja">
+            </div>
+
+
+            <div class="modal-body">
+                Uma base crocante de massa sablée é o leito para uma compota rica de cerejas negras frescas, cuidadosamente selecionadas
+                e maceradas com um toque de kirsch. O recheio é suavizado com uma camada sedosa de creme de mascarpone, levemente
+                adoçado. A torta é finalmente coroada com cerejas inteiras glaceadas e um fio de chocolate amargo. Servida com uma
+                quenelle de sorvete de baunilha de Madagascar, esta torta é uma celebração dos sabores clássicos com um toque
+                contemporâneo.<br>
+                <p>R$ 42,11</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modais -->
+<div class="modal fade" id="modal16" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Bolo Velours Rouge</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Aqui você vai colocar a imagem -->
+                <img src="../img/sob_bolo.png" alt="bolo">
+            </div>
+
+
+            <div class="modal-body">
+                Uma interpretação sofisticada do clássico Red Velvet, com camadas de bolo de veludo vermelho, intercaladas com um creme
+                de queijo mascarpone e baunilha. Coberto com uma ganache de chocolate branco e decorado com pétalas de rosas
+                cristalizadas e fios de ouro comestível.<br>
+                <p>R$ 23,72</p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

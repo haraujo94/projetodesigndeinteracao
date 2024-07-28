@@ -14,9 +14,10 @@ body {
 }
 
 body div h1 {
-    font-size: 200px;
+    font-size: 100px;
     margin: 1px 1px 1px 1px;
     text-align: center;
+    
 }
 
 body header figure {
