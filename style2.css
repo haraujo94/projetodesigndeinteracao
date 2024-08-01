@@ -60,7 +60,7 @@ body div figure {
     margin: 2px 2px 2px 2px;
 }
 
-.BolosCaseiro {
+.BoloSimples {
     font-family: "Italianno", cursive, sans-serif;
     color: black;
     text-align: center;
@@ -117,7 +117,7 @@ body div figure {
      opacity: 0.4;
 }
 
-.BolosCaseiro {
+.BoloSimples {
     font-family: "Italianno", cursive, sans-serif;
     color: black;
     text-align: center;
@@ -185,7 +185,7 @@ body div figure {
 
 /* *-*-*-*-*-*-*-*-*-*-*-*- */
 
-.BolosdeFesta {
+.BoloDecorado {
     font-family: "Italianno", cursive, sans-serif;
     color: black;
     text-align: center;
@@ -197,7 +197,7 @@ body div figure {
     text-align: center;
 }
 
-.Doces {
+.Sobremesa {
     font-family: "Italianno", cursive, sans-serif;
     color: black;
     text-align: center;
