@@ -1,27 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=WindSong:wght@400;500&display=swap');
 
 .italianno-regular {
-  font-family: "Italianno", cursive, sans-serif;
-  font-weight:100 ;
-  font-style: normal;
-  color: black;
+    font-family: "Italianno", cursive, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
 }
-body, html {
-    height: 100%;
-    margin: 0;
+
+body {
+    background-color:white;
+    
 }
 
 body div h1 {
-  font-size: 100px;
-  margin: 1px 1px 1px 1px;
-  text-align: center;
+    font-size: 100px;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+    
+}
+
+body header figure {
+    margin: 10px 5px 10px 5px;
+    padding: center;
 }
 
 
 body header figcaption {
-  float: right;
+    float: right;
 }
 
+body div figure {
+    text-align: center;
+}
+
+.conteudo {
+    display: flex row;
+    align-items: center;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -31,11 +46,6 @@ body {
 }
 
 
-
-body, html {
-    height: 100%;
-    margin: 0;
-}
 
 .endereco {
     font-family: "Italianno", cursive, sans-serif;

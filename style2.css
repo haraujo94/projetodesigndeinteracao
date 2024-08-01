@@ -25,13 +25,6 @@ body header figure {
     padding: center;
 }
 
-.logo {
-    margin: 10px 5px 10px 5px;
-    padding: 5px 5px 5px 5px;
-    float: left;
-    clear: both;
-    background-image: rgb(245, 237, 228);
-}
 
 body header figcaption {
     float: right;
