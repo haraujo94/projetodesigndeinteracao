@@ -8,29 +8,44 @@
 }
 
 body {
-    background-color:white;
-    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
 }
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 50px; /* Ajuste conforme necessário */
+    display: flex;
+    justify-content: flex-start;
+}
+
+header figcaption {
+    display: flex;
+    gap: 40px; /* Espaçamento entre os links */
+}
+
+header figcaption a {
+    text-decoration: none;
+    color:black; /* Ajuste conforme necessário */
+    font-weight: bold;
+}
+
 
 body div h1 {
     font-size: 100px;
     margin: 1px 1px 1px 1px;
     text-align: center;
     
-}
-
-body header figure {
-    margin: 10px 5px 10px 5px;
-    padding: center;
-}
-
-
-body header figcaption {
-    float: right;
-}
-
-body div figure {
-    text-align: center;
 }
 
 .conteudo {
@@ -49,7 +64,7 @@ body {
 
 .endereco {
     font-family: "Italianno", cursive, sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     padding: 25px 25px 25px 25px;
     margin: 16px 16px 16px 16px;
 
@@ -57,19 +72,19 @@ body {
 
  h3 {
     font-family: "Italianno", cursive, sans-serif;
-    font-size: 20px;
-    padding-top: 30px;
+    font-size: 50px;
+    padding-top: 40px;
 }
 
 .horario {
     font-family: "Italianno", cursive, sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     margin: 0px;
 }
 
 .pagamento {
     font-family: "Italianno", cursive, sans-serif;
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .footer-container {

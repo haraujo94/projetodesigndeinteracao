@@ -7,11 +7,40 @@
     font-style: normal;
     color: black;
 }
-
 body {
-    background-color:white;
-    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
 }
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 50px; /* Ajuste conforme necessário */
+    display: flex;
+    justify-content: flex-start;
+}
+
+header figcaption {
+    display: flex;
+    gap: 40px; /* Espaçamento entre os links */
+}
+
+header figcaption a {
+    text-decoration: none;
+    color: black; /* Ajuste conforme necessário */
+    font-weight: bold;
+}
+
+
 
 body div h1 {
     font-size: 100px;
@@ -20,15 +49,9 @@ body div h1 {
     
 }
 
-body header figure {
-    margin: 10px 5px 10px 5px;
-    padding: center;
-}
 
 
-body header figcaption {
-    float: right;
-}
+
 
 body div figure {
     text-align: center;

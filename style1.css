@@ -8,23 +8,56 @@
 }
 
 
-body{
-    background-color:white;
-    
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
 }
-body header figcaption {
-    float: right;
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 50px; /* Ajuste conforme necessário */
+    display: flex;
+    justify-content: flex-start;
 }
-figure{
+
+header figcaption {
+    display: flex;
+    gap: 40px; /* Espaçamento entre os links */
+}
+
+header figcaption a {
+    text-decoration: none;
+    color: black; /* Ajuste conforme necessário */
+    font-weight: bold;
+}
+
+figure {
     display: flex;
     justify-content: center;
     align-items: center;
-        
+    margin: auto;
 }
 
-p{
-    font-family: "Italianno", cursive, sans-serif;
-    font-size: 30px;
-    text-align: center;
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Ajuste conforme necessário */
+}
 
+p {
+    font-family: "Italianno", cursive, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 0; /* Ajuste conforme necessário */
 }
