@@ -16,6 +16,7 @@ body {
     height: 100vh;
     margin: 0;
     position: relative;
+    justify-content: center;
 }
 
 header {
@@ -47,6 +48,19 @@ figure {
     align-items: center;
     margin: auto;
 }
+figure .logo {
+    animation: move 5s infinite alternate ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px); /* Ajuste conforme necessário */
+    }
+}
+
 
 section {
     display: flex;

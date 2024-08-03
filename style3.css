@@ -15,6 +15,7 @@ body {
     height: 100vh;
     margin: 0;
     position: relative;
+    justify-content: center;
 }
 
 header {
@@ -42,11 +43,24 @@ header figcaption a {
 
 
 body div h1 {
-    font-size: 100px;
+    font-size: 40px;
     margin: 1px 1px 1px 1px;
     text-align: center;
     
 }
+figure .logo {
+    animation: move 5s infinite alternate ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px); /* Ajuste conforme necessário */
+    }
+}
+
 
 .conteudo {
     display: flex row;
@@ -60,31 +74,9 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
-
-.endereco {
-    font-family: "Italianno", cursive, sans-serif;
-    font-size: 50px;
-    padding: 25px 25px 25px 25px;
-    margin: 16px 16px 16px 16px;
-
-}
-
- h3 {
-    font-family: "Italianno", cursive, sans-serif;
-    font-size: 50px;
-    padding-top: 40px;
-}
-
-.horario {
-    font-family: "Italianno", cursive, sans-serif;
-    font-size: 50px;
-    margin: 0px;
-}
-
 .pagamento {
     font-family: "Italianno", cursive, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .footer-container {
